@@ -1,7 +1,10 @@
 # Future-Skills
 
 Nome dos Integrantes: Gabriel Costa Cutrim, RM: 568059.
+
 Link do deploy: https://future-skills-kappa.vercel.app/
+
+Link do repositório: https://github.com/gabrielcutrim3007-crypto/Future-Skills
 
 ## Descrição do Projeto
 Este projeto é um formulário web interativo desenvolvido para o desafio da disciplina de Web Development.  
