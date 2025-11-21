@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscrição - FutureSkills</title>
+ 
+    <!-- Importando o CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+    <div class="card">
+ 
+    <h1>Inscrição FutureSkills</h1>
+    <p>Prepare-se para o Futuro do Trabalho</p>
+ 
+    <div class="form-group">
+        <label>Nome Completo:</label>
+        <input type="text" id="nome">
+    </div>
+ 
+    <div class="form-group">
+        <label>CPF:</label>
+        <input type="text" id="cpf" placeholder="Somente números">
+    </div>
+ 
+    <div class="form-group">
+        <label>E-mail:</label>
+        <input type="text" id="email">
+    </div>
+ 
+    <div class="form-group">
+    <label>Tipo de Interesse:</label>
+ 
+    <!-- Select com opções sugeridas -->
+    <select id="interesseSelect">
+        <option value="">Selecione um interesse ou digite abaixo</option>
+        <option value="Trabalho Remoto">Trabalho Remoto</option>
+        <option value="Inteligência Artificial">Inteligência Artificial</option>
+        <option value="Sustentabilidade">Sustentabilidade</option>
+        <option value="Automação e IoT">Automação e IoT</option>
+        <option value="Educação Digital">Educação Digital</option>
+        <option value="Saúde e Bem-estar">Saúde e Bem-estar</option>
+    </select>
+ 
+    <!-- Input para interesses personalizados -->
+    <input type="text" id="interesseInput" placeholder="Ou digite um novo interesse">
+ 
+    <button onclick="adicionarInteresse()">Adicionar Interesse</button>
+    </div>
+ 
+    <div class="form-group">
+        <label>Interesses adicionados:</label>
+        <div id="interessesLista"></div>
+    </div>
+ 
+    <div class="form-group">
+    <label>Habilidade:</label>
+ 
+    <!-- Select com opções sugeridas -->
+    <select id="habilidadeSelect">
+        <option value="">Selecione uma habilidade ou digite abaixo</option>
+        <option value="Python">Python</option>
+        <option value="IA Generativa">IA Generativa</option>
+        <option value="Pensamento Crítico">Pensamento Crítico</option>
+        <option value="Trabalho em Equipe">Trabalho em Equipe</option>
+        <option value="Cibersegurança">Cibersegurança</option>
+        <option value="IoT e Automação">IoT e Automação</option>
+        <option value="Design Thinking">Design Thinking</option>
+        <option value="Comunicação">Comunicação</option>
+        <option value="Liderança">Liderança</option>
+    </select>
+ 
+    <!-- Input para habilidades personalizadas -->
+    <input type="text" id="habilidadeInput" placeholder="Ou digite uma nova habilidade">
+ 
+    <button onclick="adicionarHabilidade()">Adicionar Habilidade</button>
+    </div>
+ 
+    <div class="form-group">
+       <label>Habilidades adicionadas:</label>
+       <div id="habilidadesLista"></div>
+    </div>
+ 
+ 
+    <div class="form-group">
+        <button onclick="validarFormulario()">Enviar Inscrição</button>
+    </div>
+ 
+    <div class="form-group">
+        <div id="feedback"></div>
+    </div>
+ 
+</div>
+ 
+    <!-- Importando o JavaScript externo -->
+    <script src="script.js"></script>
+ 
+</body>
+</html>
